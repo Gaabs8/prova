@@ -1,0 +1,61 @@
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0px;
+  gap: 5px;
+  padding: 5px;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-areas: "topo topo topo"
+                       "conteudo conteudo menu"
+                       "rodape rodape rodape";
+}
+
+#global {
+  grid-area: global;
+  border: 3px solid #c45379;
+  color: #c45379;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: #c45379;
+}
+
+#topo {
+  grid-area: topo;
+  border: 3px solid #c45379;
+  color: #c45379;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: #c45379;
+}
+
+#conteudo {
+  grid-area: conteudo;
+  border: 3px solid #87fa87;
+  color: #87fa87;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: #87fa87;
+}
+
+#menu {
+  grid-area: menu;
+  border: 3px solid #293fab;
+  color: #293fab;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: #293fab;
+}
+
+#rodape {
+  grid-area: rodape;
+  border: 3px solid #f27d10;
+  color: y#f27d10;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: #f27d10;
+}
